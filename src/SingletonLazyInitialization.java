@@ -1,7 +1,7 @@
 /**
  * Created by java_dev on 21.04.17.
  */
-public class SingletonLazyInitialization {
+public final class SingletonLazyInitialization {
     private static SingletonLazyInitialization instance = null;
     private SingletonLazyInitialization()   {
         //Description of the object initialization process.
